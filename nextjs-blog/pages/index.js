@@ -208,6 +208,29 @@ export default function Home() {
           line-height: 130%; /* 23.4px */
         }
 
+        button {
+          display: flex;
+          height: 32px;
+          padding: 8px 12px;
+          align-items: center;
+          gap: 6px;
+
+          border-radius: 12px;
+          background: var(--Fundo, #08152C);
+          border: 2px solid #0F2752;
+
+          color: #B2D9FC;
+          font-family: Gabarito;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 90%; /* 16.2px */
+        }
+
+        button:hover {
+          background: #0F2752;
+        }
+
         main {
           padding: 0 0;
           flex: 1;
